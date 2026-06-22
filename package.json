@@ -1,0 +1,12 @@
+{
+  "name": "midi-piano-roll",
+  "version": "1.0.0",
+  "description": "MIDI Piano Roll - React Canvas + Node.js",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  }
+}
